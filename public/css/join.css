@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.joinHero {
+  position: relative;
+  height: 595px;
+  background: url('/images/aboutBG-min.png') no-repeat center center;
+  background-size: cover;
+  background-color: black; /* Fallback color */
+  padding-bottom: 5px;
+  border-bottom: 12.5px solid black;
+}
+
+.navbar {
+  position: absolute;
+  top:  8%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center; 
+  background: rgba(0, 0, 0, 0); 
+}
+
+nav img {
+  height: 55px;
+  margin-left: 0px;
+}
+
+
+.navbar button {
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 135px;
+  margin-right: 20px;
+  border: none;
+  background-color: rgba(241, 241, 241, 0);
+  color: white;
+  font-family: 'Hanken Grotesk', sans-serif; 
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button:last-child span{
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 25px;
+  color: #000000;
+  margin-right: 5px;	
+}
+
+#login-cta {
+  border: 1.5px solid transparent;
+}
+
+#login-cta:hover {
+  border-color: #F9A805;
+  background-color: #F9A805;
+}
+
+nav button:hover {
+  color: #F9A805;
+}
+
+h1 {
+  position: absolute;
+  top:  17.5%;
+  left: 28.5%;
+  font-size: 75px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 35px;
+  color: white;
+  font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+#cta1{
+  position: absolute;
+  text-align: left;
+  top:  45%;
+  left: 4%;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #121212;
+  border-radius: 13px;
+  padding: 0 40px;
+  width: 1091px;
+  height: 65px;
+  font-size: 21px;
+  filter:   drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.5)) 
+            drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.33));
+  font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+#cta1:hover {
+  cursor: pointer;
+}
+
+/*Sign-up form's Styling*/
+.signup-container {
+    position: absolute;
+    top: 58.5%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    width: 300px; /* adjust as necessary */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    background: rgba(17, 20, 24, 0.79);
+    background-image: url('/images/abstractSwirls.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 405px;
+    height: 435px;
+  }
+  
+  .signup-form h2.form-title {
+    position: absolute;
+    top:  3.5%;
+    left: 30.5%;
+    font-size: 55px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif; 
+  }
+  
+  .signup-form .form-group {
+    margin-bottom: 15px;
+    position: relative;
+    left: 5%;
+  }
+
+  #emailField{
+    position: relative;
+    margin-top: 135px;
+  }
+
+  .signup-form .form-group input {
+    width: 85%;
+    height: 24.5px;
+    padding: 10px;  
+    border: none;
+    border-radius: 5px;
+    background-color: #2F2E2C;
+    font-size: 15.5px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+  }
+
+  .signup-form .form-group input:focus {
+    background-color: #ffffff;
+  }
+
+  #submitField{
+    height: 24.5px;
+  }
+  
+  .signup-form .form-group button {
+    width: 89.5%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0073E6;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+  }
+  
+  .signup-form .form-group button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .signup-form .sign-in-link {
+    color: #808080;
+    font-size: 15.5px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+    margin-top: 60px;
+    text-align: center; 
+  }
+  
+  .signup-form .sign-in-link a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .signup-form .sign-in-link a:hover {
+    color: #F9A805;
+  }
+
+  .signup-form .admin-link {
+    color: #808080;
+    font-size: 15.5px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+    margin-top: 20px;
+    text-align: center; 
+  }
+  
+  .signup-form .admin-link a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .signup-form .admin-link a:hover {
+    color: #F9A805;
+  }
+  
+  .footer {
+    height: 1280px;
+    background: url('/images/footerBG-min.png') no-repeat center center;
+    background-size: 100%;
+    background-color: #000000;
+    border-bottom: 12.5px solid black;
+  }
+  
+  h2 {
+    position: absolute;
+    top:  140%;
+    left: 26.5%;
+    font-size: 75px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif; 
+  }
+  
+  #sub-1 {
+    position: absolute;
+    top:  161.5%;
+    left: 14.5%;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif; 
+  }
+  
+  #cta2 {
+    position: absolute;
+    top:  189%;
+    left: 38.5%;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #121212;
+    border-radius: 30px;
+    padding: 0 40px;
+    width: 275px;
+    height: 65px;
+    font-size: 21px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+  }
+  
+  #cta2:hover {
+    cursor: pointer;
+    border-color: #F9A805;
+    background-color: #F9A805;
+  }
+  
+  
+  .siteLink{
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    top:  232.5%;
+    width: 350px;
+    height: 450px;
+    background-color: #000000;
+  }
+  
+  #col-1{
+    left: 2.5%;
+  }
+  
+  #col-2{
+    left: 36%;
+  }
+  
+  #col-3{
+    left: 69.5%;
+  }
+  
+  .footer a {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+    font-weight: 400;
+    text-align: left;
+    margin-left: 50px;
+    padding-bottom: 0;
+    margin-top: 12.5px;
+    text-decoration: none;
+  }
+  
+  .footer p  {
+    color: #676767;
+    font-size: 17px;
+    font-family: 'Hanken Grotesk', sans-serif; 
+    font-weight: 400;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  #mast{
+    position: relative;
+    top: 90%;
+    text-align: center;
+  }
+  

@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #111418;
+}
+
+.aboutHero {
+  position: relative;
+  height: 1200px;
+  background: url('/images/aboutBG-min.png') no-repeat center center;
+  background-size: cover;
+  background-color: black; /* Fallback color */
+  border-bottom: 12.5px solid black;
+}
+
+.navbar {
+  position: absolute;
+  top:  8%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center; 
+  background: rgba(0, 0, 0, 0); 
+}
+
+nav img {
+  height: 55px;
+  margin-left: 0px;
+}
+
+
+.navbar button {
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 135px;
+  margin-right: 20px;
+  border: none;
+  background-color: rgba(241, 241, 241, 0);
+  color: white;
+  font-family: 'Hanken Grotesk', sans-serif; 
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav button:last-child span{
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 25px;
+  color: #000000;
+  margin-right: 5px;	
+}
+
+#login-cta {
+  border: 1.5px solid transparent;
+}
+
+#login-cta:hover {
+  border-color: #F9A805;
+  background-color: #F9A805;
+}
+
+nav button:hover {
+  color: #F9A805;
+}
+
+h1 {
+  position: absolute;
+  top:  17.5%;
+  left: 22.5%;
+  font-size: 75px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 35px;
+  color: white;
+  font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+#cta1{
+  position: absolute;
+  text-align: left;
+  top:  45%;
+  left: 4%;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #121212;
+  border-radius: 13px;
+  padding: 0 40px;
+  width: 1091px;
+  height: 65px;
+  font-size: 21px;
+  filter:   drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.5)) 
+            drop-shadow(2px 2px 50px rgba(0, 0, 0, 0.33));
+  font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+#cta1:hover {
+  cursor: pointer;
+}
+
+    /* Styling for the dynamic tabular blocks will go here*/
+    #data-card{
+      background-color: #111418;
+      border-bottom: 12.5px solid black; 
+      height: 1850px;
+      margin-top: 0px;
+      color: #ffffff;
+      font-size: 19px;
+      font-family: 'Hanken Grotesk', sans-serif; 
+      font-weight: 400;
+      text-align: left;
+      margin-left: 20px;
+      margin-top: 50px;
+    }
+
+    h2 {
+      position: absolute;
+      top:  20.5%;
+      left: 35.5%;
+      font-size: 55px;
+      font-weight: 400;
+      text-align: center;
+      margin-top: 35px;
+      color: white;
+      font-family: 'Hanken Grotesk', sans-serif; 
+    }
+
+    #data-card table {
+      width: 90%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    
+    #data-card th, #data-card td {
+      border: 1px solid #808080;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    #data-card th {
+      background-color: #595964;
+      color: white;
+    }
+    
+    
+    #data-card tr:hover {background-color: #F9A805;}
+    
+    /*Admin form's Styling*/
+.admin-container {
+  position: absolute;
+  top: 65.5%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  width: 405px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  background: rgba(17, 20, 24, 0.79);
+  background-image: url('/images/abstractSwirls.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto; /* Changed to auto to accommodate varying form heights */
+}
+
+
+.admin-form .form-group {
+  margin-bottom: 15px;
+  position: relative;
+  left: 5%;
+}
+
+
+#emailField{
+  position: relative;
+  margin-top: 135px;
+}
+
+.admin-form .form-group input {
+  width: 85%;
+  height: 24.5px;
+  padding: 10px;  
+  border: none;
+  border-radius: 5px;
+  background-color: #2F2E2C;
+  font-size: 15.5px;
+  font-family: 'Hanken Grotesk', sans-serif; 
+  margin-top: 10px;
+}
+
+.admin-form .form-group input:focus {
+  background-color: #ffffff;
+}
+
+#submitField{
+  height: 24.5px;
+}
+
+.admin-form .form-group button {
+  width: 89.5%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0073E6;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+.admin-form .form-group button:hover {
+  background-color: #0056b3; /* Darker blue */
+}
+
+.admin-form .sign-in-link {
+  color: #808080;
+  font-size: 15.5px;
+  font-family: 'Hanken Grotesk', sans-serif; 
+  margin-top: 60px;
+  text-align: center; 
+}
+
+.admin-form .sign-in-link a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.admin-form .sign-in-link a:hover {
+  color: #F9A805;
+}
+
+.admin-form .admin-link {
+  color: #808080;
+  font-size: 15.5px;
+  font-family: 'Hanken Grotesk', sans-serif; 
+  margin-top: 20px;
+  text-align: center; 
+}
+
+.admin-form .admin-link a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.admin-form .admin-link a:hover {
+  color: #F9A805;
+}
+
+
+/* Add the CSS for the dropdown */
+.admin-form .form-group select {
+  width: 85%;
+  height: 24.5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2F2E2C;
+  color: white;
+  font-size: 15.5px;
+  font-family: 'Hanken Grotesk', sans-serif; 
+}
+
+.admin-form .form-group select:focus {
+  background-color: #ffffff;
+  color: black;
+}

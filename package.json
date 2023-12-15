@@ -1,0 +1,19 @@
+{
+  "name": "boostr",
+  "version": "1.0.0",
+  "description": "Student Mentorship Platform",
+  "main": "home.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Omung'a • S2110910",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7"
+  }
+}
